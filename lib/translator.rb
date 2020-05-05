@@ -35,6 +35,6 @@ def get_english_meaning(file_path, jap_emoticon)
     #p item[:japanese].class
     #p name[item][:english]
   end
-  puts english_meaning
+  english_meaning
 end
 get_english_meaning('./lib/emoticons.yml',"(＾ｖ＾)")
