@@ -27,8 +27,8 @@ def get_english_meaning(file_path, jap_emoticon)
     puts name_of
     puts values
     values.each do |language, elements|
-      puts language
-      puts elements
+      #puts language
+      #puts elements
       if language == :english
         puts elements
 
