@@ -30,7 +30,7 @@ def get_japanese_emoticon(file_path,eng_emoticon)
   end
   puts jap_emoticon
 end
-get_japanese_emoticon('./lib/emoticons.yml',">:(")
+get_japanese_emoticon('./lib/emoticons.yml',"=D")
 
 def get_english_meaning(file_path, jap_emoticon)
   # code goes here
