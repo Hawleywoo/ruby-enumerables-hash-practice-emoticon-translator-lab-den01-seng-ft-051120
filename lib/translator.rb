@@ -29,8 +29,11 @@ def get_japanese_emoticon(file_path,eng_emoticon)
       end
     end
   end
+  if eng_emoticon == ''
+    'Sorry, that emoticon was not found'
+  end
 end
-get_japanese_emoticon('./lib/emoticons.yml',"=D")
+#get_japanese_emoticon('./lib/emoticons.yml',"=D")
 
 def get_english_meaning(file_path, jap_emoticon)
   # code goes here
