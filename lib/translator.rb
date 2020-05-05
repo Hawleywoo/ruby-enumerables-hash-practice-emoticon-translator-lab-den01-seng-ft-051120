@@ -33,7 +33,7 @@ def get_english_meaning(file_path, jap_emoticon)
   end
   if english_meaning == ''
     return 'Sorry, that emoticon was not found'
-  else 
+  else
     return english_meaning
   end
 end
