@@ -28,7 +28,7 @@ def get_english_meaning(file_path, jap_emoticon)
     puts values
     values.each do |elements|
       puts elements
-      
+
 
     end
 
