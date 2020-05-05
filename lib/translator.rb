@@ -14,9 +14,13 @@ def load_library(file_path)
   updated_library
 end
 
-def get_japanese_emoticon
-  # code goes here
-
+def get_japanese_emoticon(file_path,eng_emoticon)
+  updated_library = load_library(file_path)
+  update_library.each do  |name_of, values|
+    puts name_of
+    puts values
+    
+  end
 end
 
 def get_english_meaning(file_path, jap_emoticon)
