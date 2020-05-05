@@ -16,7 +16,7 @@ end
 
 def get_japanese_emoticon(file_path,eng_emoticon)
   updated_library = load_library(file_path)
-  
+
   updated_library.each do  |name_of, values|
     #puts name_of
     #puts values
