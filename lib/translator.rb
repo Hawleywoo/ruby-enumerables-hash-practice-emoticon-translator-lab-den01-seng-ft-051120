@@ -30,7 +30,7 @@ def get_english_meaning(file_path, jap_emoticon)
       #puts language
       #puts elements
       if elements == jap_emoticon
-        puts elements
+        puts name_of
 
       end
 
