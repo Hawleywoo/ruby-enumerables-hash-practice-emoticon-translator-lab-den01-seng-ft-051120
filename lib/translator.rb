@@ -28,6 +28,8 @@ def get_english_meaning(file_path, jap_emoticon)
     values.each do |language, elements|
       if elements == jap_emoticon
         english_meaning = name_of
+      else
+        return 'Sorry, that emoticon was not found'
       end
     end
   end
