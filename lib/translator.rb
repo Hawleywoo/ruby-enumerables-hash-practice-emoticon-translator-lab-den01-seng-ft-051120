@@ -24,7 +24,7 @@ def get_japanese_emoticon(file_path,eng_emoticon)
       #puts language
       #puts elements
       if elements == eng_emoticon
-        puts name_of
+        puts name_of[:japanese]
       end
 
     end
