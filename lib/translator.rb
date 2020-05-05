@@ -19,9 +19,9 @@ def get_japanese_emoticon(file_path,eng_emoticon)
   update_library.each do  |name_of, values|
     puts name_of
     puts values
-
   end
 end
+get_japanese_emoticon('./lib/emoticons.yml',">:(")
 
 def get_english_meaning(file_path, jap_emoticon)
   # code goes here
@@ -41,4 +41,4 @@ def get_english_meaning(file_path, jap_emoticon)
     return english_meaning
   end
 end
-get_english_meaning('./lib/emoticons.yml',"(＾ｖ＾)")
+#get_english_meaning('./lib/emoticons.yml',"(＾ｖ＾)")
