@@ -27,7 +27,8 @@ def get_english_meaning(file_path, jap_emoticon)
     puts name_of
     puts values
     values.each do |language,emoticon|
-      puts elements
+      puts langauge
+      puts emoticon
 
     end
 
