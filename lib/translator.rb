@@ -23,10 +23,11 @@ def get_english_meaning(file_path, jap_emoticon)
   # code goes here
   updated_library = load_library(file_path)
   #p updated_library['wink']
-  updated_library.each do |name|
-    name.each do |language, emoticon|
-      p Language
-      p emoticon
+  updated_library.each do |name_of, values|
+    puts name_of
+    puts values
+    values.each do |elements|
+    
     end
 
     #p item[:english].class
