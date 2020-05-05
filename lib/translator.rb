@@ -16,7 +16,7 @@ end
 
 def get_japanese_emoticon(file_path,eng_emoticon)
   updated_library = load_library(file_path)
-
+  jap_emoticon = ''
   updated_library.each do  |name_of, values|
     #puts name_of
     #puts values
@@ -24,11 +24,11 @@ def get_japanese_emoticon(file_path,eng_emoticon)
       #puts language
       #puts elements
       if elements == eng_emoticon
-        puts updated_library[name_of][:japanese]
+        jap_emoticon = updated_library[name_of][:japanese]
       end
-
     end
   end
+  jap_emoticon
 end
 get_japanese_emoticon('./lib/emoticons.yml',">:(")
 
