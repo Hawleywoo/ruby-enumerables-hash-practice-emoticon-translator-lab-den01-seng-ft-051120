@@ -26,9 +26,9 @@ def get_english_meaning(file_path, jap_emoticon)
   updated_library.each do |name_of, values|
     puts name_of
     puts values
-    values.each do |language,emoticon|
-      puts langauge
-      puts emoticon
+    values.each do |elements|
+      puts elements
+      
 
     end
 
