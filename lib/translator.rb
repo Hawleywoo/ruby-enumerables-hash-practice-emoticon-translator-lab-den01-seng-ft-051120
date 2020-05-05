@@ -21,6 +21,7 @@ end
 
 def get_english_meaning(file_path, jap_emoticon)
   # code goes here
+  english_meaning = ''
   updated_library = load_library(file_path)
   #p updated_library['wink']
   updated_library.each do |name_of, values|
