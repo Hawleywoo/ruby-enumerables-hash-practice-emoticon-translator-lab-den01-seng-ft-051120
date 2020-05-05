@@ -30,10 +30,6 @@ def get_english_meaning(file_path, jap_emoticon)
         english_meaning = name_of
       end
     end
-
-    #p item[:english].class
-    #p item[:japanese].class
-    #p name[item][:english]
   end
   english_meaning
 end
