@@ -30,6 +30,9 @@ def get_english_meaning(file_path, jap_emoticon)
       puts language
       puts elements
       if language == :english
+        puts elements
+
+      end
 
 
     end
