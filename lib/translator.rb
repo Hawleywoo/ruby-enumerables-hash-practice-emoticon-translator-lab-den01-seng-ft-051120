@@ -19,7 +19,7 @@ def get_japanese_emoticon(file_path,eng_emoticon)
   update_library.each do  |name_of, values|
     puts name_of
     puts values
-    
+
   end
 end
 
