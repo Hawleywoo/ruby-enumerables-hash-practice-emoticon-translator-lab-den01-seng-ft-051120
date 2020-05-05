@@ -24,22 +24,16 @@ def get_english_meaning(file_path, jap_emoticon)
   updated_library = load_library(file_path)
   #p updated_library['wink']
   updated_library.each do |name_of, values|
-    puts name_of
-    puts values
     values.each do |language, elements|
-      #puts language
-      #puts elements
       if elements == jap_emoticon
-        puts name_of
-
+        english_meaning = name_of
       end
-
-
     end
 
     #p item[:english].class
     #p item[:japanese].class
     #p name[item][:english]
   end
+  puts english_meaning
 end
 get_english_meaning('./lib/emoticons.yml',"(＾ｖ＾)")
