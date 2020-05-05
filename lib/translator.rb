@@ -29,7 +29,7 @@ def get_english_meaning(file_path, jap_emoticon)
     values.each do |language, elements|
       #puts language
       #puts elements
-      if language == :english
+      if elements == jap_emoticon
         puts elements
 
       end
