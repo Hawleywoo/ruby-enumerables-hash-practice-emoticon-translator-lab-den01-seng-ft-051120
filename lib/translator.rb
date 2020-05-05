@@ -19,6 +19,11 @@ def get_japanese_emoticon(file_path,eng_emoticon)
   updated_library.each do  |name_of, values|
     puts name_of
     puts values
+    values.each do |language, elements|
+      puts language
+      puts elements
+
+    end
   end
 end
 get_japanese_emoticon('./lib/emoticons.yml',">:(")
